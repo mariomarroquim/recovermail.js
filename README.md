@@ -1,6 +1,6 @@
-# Recovermail.Js
+# Recovermail.js
 
-JavaScript to capture emails entered by users and send them to an endpoint.
+JavaScript to capture user-entered emails and send them to an endpoint.
 
 ## Overview
 
