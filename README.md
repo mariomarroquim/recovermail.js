@@ -1,4 +1,6 @@
-# recovermail.js
+# Recovermail.Js
+
+JavaScript to capture emails entered by users and send them to an endpoint.
 
 ## Overview
 
@@ -23,7 +25,12 @@ To use `recovermail.js`, include it in your HTML page with the necessary `data` 
     <input type="text" name="email"/>
 
     <!-- Include the script with the external URL, retry count, timeout, and method as data attributes -->
-    <script src="recovermail.js" data-endpoint="https://example.com/collectEmails" data-retries="3" data-timeout="5000" data-method="POST"></script>
+    <script src="https://github.com/mariomarroquim/recovermail.js/blob/main/recovermail.js"
+            data-endpoint="https://example.com/collectEmails"
+            data-retries="3"
+            data-timeout="5000"
+            data-method="POST">
+    </script>
 </body>
 </html>
 ```
