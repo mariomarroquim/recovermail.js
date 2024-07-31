@@ -4,11 +4,11 @@ JavaScript to capture user-entered emails and send them to an endpoint.
 
 ## Overview
 
-`recovermail.js` is a JavaScript tool designed to capture email addresses entered by users in any visible text fields on an HTML page. It sends the detected emails along with the full URL of the current page to a specified external endpoint via a user-defined request method (GET or POST). The tool includes retry logic and a timeout feature to ensure reliable data transmission.
+`recovermail.js` is a JavaScript tool designed to capture email addresses entered by users in any visible text fields on an HTML page. It sends the detected emails along with the full URL of the current page to a specified external endpoint via a user-defined request method (GET or POST). The tool includes a retry on timeout/error feature to ensure reliable data transmission.
 
 ## Usefulness
 
-This script is ideal for businesses needing to capture and process email addresses entered by users on their website. It automates email collection for purposes such as newsletter sign-ups, contact forms, user feedback, and marketing campaigns. The script ensures reliable data transmission with retry and timeout mechanisms, preventing duplicate submissions and reducing the risk of lost information.
+This script is ideal for businesses needing to capture and process email addresses entered by users on their website. It automates email collection for purposes such as newsletter sign-ups, contact forms, user feedback, marketing campaigns, and shopping cart recovery. The script ensures reliable data transmission with a retry on timeout/error mechanism, prevents duplicate submissions and reduces the risk of lost information.
 
 ## Usage
 
